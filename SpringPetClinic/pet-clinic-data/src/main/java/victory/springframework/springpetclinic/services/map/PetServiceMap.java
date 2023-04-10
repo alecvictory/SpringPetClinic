@@ -2,10 +2,11 @@ package victory.springframework.springpetclinic.services.map;
 
 import victory.springframework.springpetclinic.models.Pet;
 import victory.springframework.springpetclinic.services.CrudService;
+import victory.springframework.springpetclinic.services.PetService;
 
 import java.util.Set;
 
-public class PetServiceMap extends AbstractMapService<Pet, Long> implements CrudService<Pet, Long> {
+public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetService {
 
     @Override
     public Set<Pet> findAll() {
