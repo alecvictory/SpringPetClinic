@@ -1,4 +1,4 @@
-package victory.springframework.springpetclinic;
+package victory.springframework.SpringPetClinic;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
