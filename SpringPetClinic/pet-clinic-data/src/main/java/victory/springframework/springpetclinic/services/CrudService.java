@@ -1,4 +1,4 @@
-package victory.springframework.springpetclinic.service;
+package victory.springframework.springpetclinic.services;
 
 import java.util.Set;
 

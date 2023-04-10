@@ -1,6 +1,4 @@
-package victory.springframework.springpetclinic.model;
-
-import java.time.LocalDate;
+package victory.springframework.springpetclinic.models;
 
 public class PetType extends BaseEntity{
     private String name;

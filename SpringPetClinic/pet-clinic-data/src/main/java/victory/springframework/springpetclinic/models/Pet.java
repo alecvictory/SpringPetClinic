@@ -1,4 +1,4 @@
-package victory.springframework.springpetclinic.model;
+package victory.springframework.springpetclinic.models;
 
 import java.time.LocalDate;
 
