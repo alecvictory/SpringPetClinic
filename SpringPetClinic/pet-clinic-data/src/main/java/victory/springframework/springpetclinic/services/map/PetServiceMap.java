@@ -1,11 +1,13 @@
 package victory.springframework.springpetclinic.services.map;
 
+import org.springframework.stereotype.Service;
 import victory.springframework.springpetclinic.models.Pet;
 import victory.springframework.springpetclinic.services.CrudService;
 import victory.springframework.springpetclinic.services.PetService;
 
 import java.util.Set;
 
+@Service
 public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetService {
 
     @Override

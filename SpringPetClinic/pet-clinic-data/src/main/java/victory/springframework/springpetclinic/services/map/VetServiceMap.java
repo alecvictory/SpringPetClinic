@@ -1,10 +1,14 @@
 package victory.springframework.springpetclinic.services.map;
 
+import org.springframework.context.annotation.Profile;
+import org.springframework.stereotype.Service;
 import victory.springframework.springpetclinic.models.Vet;
 import victory.springframework.springpetclinic.services.VetService;
 
 import java.util.Set;
 
+@Service
+@Profile({"default", "map"})
 public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
     @Override
     public Set<Vet> findAll() {

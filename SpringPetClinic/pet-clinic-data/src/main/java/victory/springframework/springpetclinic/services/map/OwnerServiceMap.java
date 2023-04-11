@@ -1,10 +1,15 @@
 package victory.springframework.springpetclinic.services.map;
 
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Profile;
+import org.springframework.stereotype.Service;
 import victory.springframework.springpetclinic.models.Owner;
 import victory.springframework.springpetclinic.services.OwnerService;
 
 import java.util.Set;
 
+@Service
+@Profile({"default", "map"})
 public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService {
     @Override
     public Set<Owner> findAll() {
